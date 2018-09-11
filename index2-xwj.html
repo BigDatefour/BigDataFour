@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>账户管理与服务购买2</title>
+    <link rel="stylesheet" href="css/index2-xwj.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_829213_yqf262wgsk.css">
+    <script src="js/jQuery.js"></script>
+</head>
+
+<body>
+    <div class="topBox">
+        <img class="img" src="img/logo.png" alt="">
+        <h2>大数据实验平台</h2>
+        <div class="guanli">
+            <img src="img/touxiang.png" alt="">
+            <p>管理员身份</p>
+            <span class="iconfont icon-down-trangle"></span>
+        </div>
+    </div>
+    <!-- 侧导航 -->
+    <div class="leftBox">
+        <ul>
+            <li class="hot"><a href="">集群管理</a></li>
+            <li><a href="">学习资料</a></li>
+            <li><a href="">分类管理</a></li>
+            <li><a href="">账户管理</a></li>
+            <li><a href="">资源管理</a></li>
+            <li><a href="">购买记录</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="con">
+            <div class="section1">
+                <div class="top">
+                    <div class="left"></div>
+                    <p>学习资料</p>
+                </div>
+                <div class="bottom">
+                    <div class="dl">名称 <i class="iconfont icon-xiaosanjiaodown"></i></div>
+                    <input type="text" required>
+                    <button style="margin-left:8px">搜索</button>
+                    <button class="add_t" style="margin-left:8px">添加</button>
+                </div>
+            </div>
+            <div class="section2">
+                <div class="center">
+                    <ul class="top1">
+                        <li style="width: 224px; margin-left:-1px;">名称</li>
+                        <li style="width: 332px; margin-left:-1px;">介绍</li>
+                        <li style="width: 170px; margin-left:-1px;">类型</li>
+                        <li style="width: 142px; margin-left:-1px;">链接</li>
+                        <li style="width: 224px; margin-left:-1px;">操作 </li>
+                    </ul>
+                    <ul class="top1">
+                        <li style="width: 224px;color: #dddddd; margin:-1px 0 0 -1px;">实验一 基本操作实验</li>
+                        <li style="width: 332px;color: #dddddd; margin:-1px 0 0 -1px;">熟悉大数据实验一体机并了解如何搭建集群</li>
+                        <li style="width: 170px;color: #dddddd; margin:-1px 0 0 -1px;">实验手册</li>
+                        <li style="width: 142px;color: #dddddd; margin:-1px 0 0 -1px;"><button class="load">下载</button></li>
+                        <li style="width: 224px; margin:-1px 0 0 -1px;"><button class="del">删除</button> <button class="ch">修改</button></li>
+                    </ul>
+                    <ul class="top1">
+                        <li style="width: 224px;color: #dddddd; margin:-2px 0 0 -1px;">实验一 基本操作实验</li>
+                        <li style="width: 332px;color: #dddddd; margin:-2px 0 0 -1px;">熟悉大数据实验一体机并了解如何搭建集群</li>
+                        <li style="width: 170px;color: #dddddd; margin:-2px 0 0 -1px;">配套APP</li>
+                        <li style="width: 142px;color: #dddddd; margin:-2px 0 0 -1px;"><button class="load">下载</button></li>
+                        <li style="width: 224px; margin:-2px 0 0 -1px;"><button class="del">删除</button> <button class="ch">修改</button></li>
+                    </ul>
+                    <ul class="top1">
+                        <li style="width: 224px;color: #dddddd; margin:-3px 0 0 -1px;">实验一 基本操作实验</li>
+                        <li style="width: 332px;color: #dddddd; margin:-3px 0 0 -1px;">熟悉大数据实验一体机并了解如何搭建集群</li>
+                        <li style="width: 170px;color: #dddddd; margin:-3px 0 0 -1px;">配套APP</li>
+                        <li style="width: 142px;color: #dddddd; margin:-3px 0 0 -1px;"><button class="load">下载</button></li>
+                        <li style="width: 224px; margin:-3px 0 0 -1px;"><button class="del">删除</button> <button class="ch">修改</button></li>
+                    </ul>
+                </div>
+                <div class="page">
+                    <ul>
+                        <li style=" width:95px;margin-right:10px;">上一页</li>
+                        <li class="remove" style=" width:28px;margin-right:10px">1</li>
+                        <li style=" width:28px; margin-right:10px">2</li>
+                        <li style=" width:28px; margin-right:10px">3</li>
+                        <li style="margin-right:10px; border:none;">......</li>
+                        <li style=" width:28px; margin-right:10px">9</li>
+                        <li style=" width:28px; margin-right:10px">10</li>
+                        <li style="width:95px;margin-right:10px">下一页</li>
+                        <li style="width:75px;">尾页</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        c 2017-2018 http://sxuek.com山西优逸客科技有限公司版权所有
+    </footer>
+    <!--资料添加 弹出框 -->
+    <form class="alert_add" name="addInfo">
+        <p class="header">资料添加
+            <i class="iconfont icon-guanbi"></i>
+        </p>
+        <div class="a_con">
+            <span class="name">名称</span>
+            <input class="username" name="userName" type="text">
+            <button class="push">上传</button>
+            <div class="sad">
+                <span class="name">介绍</span>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+            <div class="choice">
+                <span class="name1">一级分类</span>
+                <select class="choice1" name="choice1" type="text" style="color:#ddd;">
+                    <option value="">实验手册</option>
+                    <option value="">材料配套PPT</option>
+                    <option value="">实验视频</option>
+                    <option value="">相关下载</option>
+                </select>
+            </div>
+            <div class="choice">
+                <span class="name1">二级分类</span>
+                <select class="choice1 choice2" name="choice1" type="text" style="color:#ddd;">
+                    <option value="">基础操作</option>
+                    <option value="">基础操作1</option>
+                    <option value="">基础操作2</option>
+                </select>
+            </div>
+            <div class="choice">
+                <span class="name1">三级分类</span>
+                <select class="choice1 choice3" name="choice1" type="text" style="color:#ddd;">
+                    <option value="">大数据实验一体机基本操作</option>
+                    <option value="">大数据实验一体机基本操作1</option>
+                </select>
+            </div>
+            <div class="add">
+                添加
+            </div>
+        </div>
+    </form>
+    <!--资料修改 弹出框 -->
+    <form class="alert_ch" name="addInfo">
+        <p class="header">资料修改
+            <i class="iconfont icon-guanbi"></i>
+        </p>
+        <div class="a_con">
+            <span class="name">名称</span>
+            <input class="username" name="userName" type="text">
+            <button class="push">上传</button>
+            <div class="sad">
+                <span class="name">介绍</span>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+            <div class="choice">
+                <span class="name1">一级分类</span>
+                <select class="choice1" name="choice1" type="text" style="color:#ddd;">
+                    <option value="">实验手册</option>
+                    <option value="">材料配套PPT</option>
+                    <option value="">实验视频</option>
+                    <option value="">相关下载</option>
+                </select>
+            </div>
+            <div class="choice">
+                <span class="name1">二级分类</span>
+                <select class="choice1 choice2" name="choice1" type="text" style="color:#ddd;">
+                    <option value="">基础操作</option>
+                    <option value="">基础操作1</option>
+                    <option value="">基础操作2</option>
+                </select>
+            </div>
+            <div class="choice">
+                <span class="name1">三级分类</span>
+                <select class="choice1 choice3" name="choice1" type="text" style="color:#ddd;">
+                    <option value="">大数据实验一体机基本操作</option>
+                    <option value="">大数据实验一体机基本操作1</option>
+                </select>
+            </div>
+            <div class="add">
+                修改
+            </div>
+        </div>
+    </form>
+</body>
+<script src="js/index2-xwj.js"></script>
+
+</html>
