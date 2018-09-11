@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.bg{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url('../img/shouye.png')
+}
+.bg .img{
+	width: 400px;
+	height: 510px;
+	background-image: url('../img/shouye2.png');
+	position: fixed;
+	top:79px;
+	left: 303px;
+	z-index: 10;
+}
+.bg .denglu{
+	width: 370px;
+	height: 480px;
+	border-radius: 3px;
+	padding:0 50px 0 60px;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 5;
+	top:94px;
+	right: 303px;
+	background-color: #FFFFFF;
+}
+.bg .denglu .img1{
+	margin: 30px auto 0;
+}
+.bg .denglu .password{
+	width: 100%;
+	height: 42px;
+	/* background-color:#cccccc; */
+	margin-top: 6px;
+	border-bottom:1px solid #558DE8;
+	padding-top: 18px;
+	box-sizing: border-box;
+}
+.bg .denglu .password img{
+	float: left;
+}
+.bg .denglu .password input{
+	display: block;
+	float: left;	
+	width: 220px;
+	height: 18px;
+	margin-left: 6px;
+	text-indent: 20px;
+	border: 0;
+	outline: 0;
+}
+.bg .denglu .password .iconfont{
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: #558DE8;
+	float:  left;
+}
+.bg .denglu input::-webkit-input-placeholder{
+	color: #c2d2f5;
+}
+.bg .denglu .yanzheng{
+	width: 100%;
+	height: 42px;
+	/* background-color:#cccccc; */
+	margin-top: 6px;
+}
+.bg .denglu .yanzheng .yanma{
+	width: 138px;
+	height: 42px;
+	border-bottom:1px solid #558DE8;
+	padding-top: 18px;
+	/* background-color:#cccccc; */
+	box-sizing: border-box;
+	float: left;
+}
+.bg .denglu .yanzheng .yanma img{
+	float: left;
+}
+.bg .denglu .yanzheng .yanma input{
+	float: left;
+	display: block;
+	width: 116px;
+	height: 18px;
+	outline: none;
+	border: 0;
+	text-indent: 20px;
+	margin-left: 6px;
+}
+.bg .denglu .yanzheng .ma{
+	width: 102px;
+	height: 30px;
+	border: 1px solid #558DE8;
+	box-sizing: border-box;
+	float: right;
+	margin-top: 12px;
+	border-radius: 5px;
+	font-size: 10px;
+	color: #8BACEE;
+	text-align: center;
+	line-height: 30px;
+}
+.denglu .login{
+	width: 100%;
+	height: 32px;
+	outline: 0;
+	border:0;
+	border-radius: 5px;
+	margin-top: 32px;
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+	font-size: 13px;
+	cursor: pointer;
+	background-image: -webkit-linear-gradient(left,#4381E6,#30C2FB);
+	background-image: -moz-linear-gradient(left,#4381E6,#30C2FB);
+	background-image: -ms-linear-gradient(left,#4381E6,#30C2FB);
+	background-image: -o-linear-gradient(left,#4381E6,#30C2FB);
+	background-image: linear-gradient(left,#4381E6,#30C2FB);
+}
+.denglu .wangji{
+	display: block;
+	width: 65px;
+	height: 13px;
+	font-size: 13px;
+	line-height: 13px;
+	text-align: center;
+	color: #8BACEE;
+	margin: 32px auto 0;
+}
+.bg .tankuang{
+	display: none;
+	width: 454px;
+	height: 220px;
+	background-color: #fff;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 50;
+	top:0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	margin: auto;
+	box-shadow: 0 0 20px 2000px rgba(0, 0, 0, 0.8);
+}
+.bg .tankuang .iconfont{
+	position: absolute;
+	right: 19px;
+	top:18px;
+	color: #BDC0C5;
+	cursor: pointer;
+}
+.bg .tankuang p{
+	width: 220px;
+	height: 13px;
+	font-size: 13px;
+	color: #B8B8B8;
+	line-height: 13px;
+	margin: 104px auto 0;
+}
+.bg .tankuang p i{
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	border-radius: 50px;
+	background-color: #FFBE22;
+	font-size: 8px;
+	text-align: center;
+	line-height: 13px;
+	font-style: normal;
+	color: #fff;
+}
