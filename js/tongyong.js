@@ -1,6 +1,5 @@
-window.onload = function(){
-
-let ass = $(".leftBox ul li a");
+$(function(){
+let ass=$(".leftBox ul li a");
 ass.each(function(index,item){
     $(item).click(function(){
         ass.removeClass("active")
@@ -13,4 +12,4 @@ ass.each(function(index,item){
         $(this).addClass("active")
     })
 })
-}
+})

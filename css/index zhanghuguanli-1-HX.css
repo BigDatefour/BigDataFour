@@ -1,0 +1,312 @@
+/* 通用部分 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.topBox{
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4381E6;
+    z-index: 10;
+}
+.topBox .img{
+    margin-left: 52px;
+    margin-top: 16px;
+    float: left;
+}
+.topBox h2{
+    width: 130px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 21px 0 0 12px;
+    float: left;
+    color: #fff;
+}
+.topBox .guanli{
+    width: 127px;
+    height: 28px;
+    float: right;
+    margin: 14px 15px 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.topBox .guanli img{
+    width: 28px;
+    height: 28px;
+}
+.topBox .guanli p{
+    width: 72px;
+    height: 28px;
+    font-size: 14px;
+    color: #b2c7f3;
+    line-height: 28px; 
+}
+.topBox .guanli span{
+    width: 16px;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    color: #b2c7f3;
+}
+.leftBox{
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    padding-top: 58px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.leftBox ul{
+    width: 178px;
+    height: 100%;
+    border-right: 2px solid #fff;
+}
+.leftBox ul li{
+    width: 178px;
+    border-right: 2px solid #fff;
+    height: 40px; 
+}
+.leftBox ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color:#8d8d8d;
+     position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #ecf2fc;
+}
+.leftBox ul li a .yuan{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color:#ccc;
+    opacity: 0.3;
+    border-radius: 50%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.leftBox ul li .active{
+    color:#4381e6;
+    background-color: #ecf2fc;
+    border-right: 2px solid #4381e6;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: #eff2f7;
+    position: absolute;
+    padding: 73px 0 0 195px;
+    box-sizing: border-box; 
+}
+/* 内容部分 */
+.main .con{
+    width: 1156px;
+    height: 505px;
+    background-color: #f1f4f9;
+} 
+.main .con .section1{
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+    box-sizing:border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;    
+    padding: 22px 0 23px 29px;
+}
+.main .con .section1 .top{
+    width:140px;
+    height:21px; 
+}
+.main .con .section1 p{
+   float: left;
+   color: #adadad;
+   margin-left: 5px;
+   font-size:14px;   
+}
+.main .con .section1 .left{
+    margin-top: 5px;
+    width: 2px;
+    height: 13px;
+    float: left;
+    background-image: -linear-gradient(top,#648aff,#30c2fb);
+    background-image: -webkit-linear-gradient(top,#648aff,#30c2fb);
+}
+.main .con .section1 .bottom{
+    width: 100%;
+    height: 30px;
+    float: left;
+}
+.bottom .dl{
+    width:93px;
+    height: 28px;
+    float: left;
+    font-size: 14px;
+    color: #b8b8b8;
+    line-height: 28px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #f4f4f4;
+}
+.bottom .dl i{
+    color: #4381e6;
+}
+.bottom input{
+    width: 188px;
+    display: block;
+    height:28px;
+    float: left;
+    margin-left: 8px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+     line-height: 28px;
+    border: 1px solid #f4f4f4;
+}
+.bottom button{
+    width: 111px;
+    height: 28px;
+    background-color: #4381e6;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 1px;
+    border:none;
+    float: left;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.section2{
+    width: 100%;
+    height: 384px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.section2 .top{
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding:0 26px 0 20px;
+}
+.section2 .top .left{
+    width: 92px;
+    height: 30px;
+    float: left;
+    color: #adadad;
+    margin-top: 5px;
+    line-height:30px;
+}
+.section2 .top .left i{
+    color: #35b1f5;
+}
+.section2 .top button{
+    float: right;
+    width: 82px;
+    height: 28px;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.center{
+    width: 100%;
+    height: 201px;
+    padding: 16px 28px 0 28px;
+    box-sizing: border-box;
+}
+.center .top1{
+    width: 100%;
+    height: 56px;
+}
+.center .jl{
+    width: 1098px;
+    height: 125px;
+    line-height: 125px;
+    text-align: center;
+    color: #8d8d8d;
+    margin-top: -1px;
+    border: 1px solid #f4f4f4;
+}
+.center .top1 li{
+    height: 54px;
+    line-height:54px;
+    text-align: center;
+    font-size: 14px;
+    color: #8d8d8d;
+    float: left;
+    border: 1px solid #f4f4f4;
+}
+.center .top1 li input{
+    width: 18px;
+    height: 18px;
+    margin: 18px auto;
+}
+.section2 .page{
+    width: 1100px;
+    padding:0 28px 0 28px;
+    height: 45px;
+    margin: 38px auto 0;
+    box-sizing: border-box;
+   
+}
+.section2 .page ul{
+    width: 522px;
+    height: 29px;
+    margin:9px auto 0;
+}
+.section2 .page ul li{
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    color: #adadad;
+    cursor: pointer;
+
+}
+.section2 .page ul .remove{
+    color: #fff;
+    background-color: #4381e6;
+}
+
+footer{
+    width: 100%;
+    height:55px; 
+    color: #cbcbcb;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 55px;
+}

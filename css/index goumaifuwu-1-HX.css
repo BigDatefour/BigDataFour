@@ -1,0 +1,346 @@
+/* 通用部分 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.topBox{
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4381E6;
+    z-index: 10;
+}
+.topBox .img{
+    margin-left: 52px;
+    margin-top: 16px;
+    float: left;
+}
+.topBox h2{
+    width: 130px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 21px 0 0 12px;
+    float: left;
+    color: #fff;
+}
+.topBox .guanli{
+    width: 127px;
+    height: 28px;
+    float: right;
+    margin: 14px 15px 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.topBox .guanli img{
+    width: 28px;
+    height: 28px;
+}
+.topBox .guanli p{
+    width: 72px;
+    height: 28px;
+    font-size: 14px;
+    color: #b2c7f3;
+    line-height: 28px; 
+}
+.topBox .guanli span{
+    width: 16px;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    color: #b2c7f3;
+}
+.leftBox{
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    padding-top: 58px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.leftBox ul{
+    width: 178px;
+    height: 100%;
+    border-right: 2px solid #fff;
+}
+.leftBox ul li{
+    width: 178px;
+    border-right: 2px solid #fff;
+    height: 40px; 
+}
+.leftBox ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color:#8d8d8d;
+     position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #ecf2fc;
+}
+.leftBox ul li a .yuan{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color:#ccc;
+    opacity: 0.3;
+    border-radius: 50%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.leftBox ul li .active{
+    color:#4381e6;
+    background-color: #ecf2fc;
+    border-right: 2px solid #4381e6;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: #eff2f7;
+    position: absolute;
+    padding: 73px 0 0 195px;
+    box-sizing: border-box; 
+}
+/* 内容部分 */
+.section{
+	width: 1156px;
+	height: 530px;
+	background-color: #fff;
+	padding: 22px 0 0 29px;
+	box-sizing: border-box;
+
+}
+.section .header{
+	width:100%;
+	height: 17px;
+	line-height: 17px;
+	font-size: 14px;
+}
+.section .header .left{
+    width: 2px;
+    height: 13px;
+    margin: 2px 5px 0 0;
+    float: left;
+    background-image: -linear-gradient(top,#648aff,#30c2fb);
+    background-image: -webkit-linear-gradient(top,#648aff,#30c2fb);
+}
+.section .time{
+	width: 100%;
+	height: 169px;
+	padding: 25px 0 0 11px;
+}
+.section .time p{
+	width: 65px;
+	height: 14px;
+	line-height: 14px;
+	float: left;
+	font-size: 14px;
+	color: #8d8d8d;
+}
+.section .time .times{
+	width: 133px;
+	height: 134px;
+	padding-top: 18px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #f4f4f4;
+	float: left;
+	cursor: pointer;
+	margin-left:21px;
+}
+.section .time .times p{
+	width: 100%;
+	height:14px; 
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	margin-bottom:6px; 
+	color:#8d8d8d;
+}
+ .section .date{
+ 	width: 100%;
+	height: 78px;
+	padding:12px 0 0 11px; 
+	box-sizing: border-box;
+ }
+.section .date p{
+     width: 65px;
+	height: 14px;
+	margin-top: 8px;
+	line-height: 14px;
+	float: left;
+	font-size: 14px;
+	color: #8d8d8d;
+}
+.section .date .dateStart{
+	width: 136px;
+	height:67px; 
+	float: left;
+	margin-left:20px ;
+}
+.section .date .dateStart .box{
+	width:auto;
+	height:30px;
+	color: #cbcbcb;
+	text-align: center;
+	line-height: 30px; 
+	cursor: pointer;
+	border: 1px solid #f4f4f4; 
+}
+.section .date .dateEnd .box{
+	width:134px;
+	height:28px;
+	color: #cbcbcb;
+	margin-left:20px ;
+	text-align: center;
+	line-height: 30px; 
+	float: left;
+	cursor: pointer;
+	border: 1px solid #f4f4f4; 
+}
+.section .date .dateStart .allow{
+	width: 100%;
+	height:35px;
+	font-size: 14px;
+	color: #b8b8b8;
+	line-height: 35px;	
+}
+.section .date .dateStart .allow input{
+	display: block;
+	margin-top: 12px;
+	float: left;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.section .date .dateEnd{
+	margin-left:55px;
+	float: left;
+	width:221px;
+	height:30px;
+}
+.section .people{
+	width: 100%;
+	height: 50px;
+	padding:11px 0 0 11px ;
+}
+.section .people p{
+	 width: 65px;
+	height: 14px;
+	margin-top: 8px;	
+	line-height: 14px;
+	float: left;
+	font-size: 14px;
+	color: #8d8d8d;
+}
+.section .people .num{
+	width: 97px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	color: #cbcbcb;
+	margin:0 35px 0  20px;
+	border: 1px solid #f4f4f4;
+}
+.section .people span{
+	display: block;
+	margin-top: 6px;
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	color: #cbcbcb;
+}
+.section .price{
+	width: 100%;
+	height: 48px;
+	padding: 10px 0 0 11px;
+}
+.section .price p{
+	 width: 65px;
+	height: 14px;
+	margin-top: 16px;
+	line-height: 14px;
+	float: left;
+	font-size: 14px;
+	color: #8d8d8d;
+}
+.section .price .prices{
+	width: 84px;
+	height: 37px;
+	float: left;
+	font-size: 14px;
+	color:#b8b8b8 ;
+	margin-right:55px;
+	margin-left: 20px;
+	line-height: 37px;
+}
+.section .price h1{
+	float: left;
+	margin-top: 16px;
+	width: auto;
+	height: auto;
+	font-weight: normal;
+	font-size: 14px;
+	color: #cbcbcb;
+}
+.section .invoice{
+	width:136px; 
+	height: 35px;
+	font-size: 14px;
+	color: #b8b8b8;
+	line-height: 35px;
+	margin-left:96px ;
+}
+.section .invoice input{
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-top: 12px;
+}
+.section .btn{
+	display: block;
+	margin: 20px 0 0 97px;
+	width: 111px;
+	height: 29px;
+	background-color: #4381e6;
+	color: #fff;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+
+
+}
+footer{
+    width: 100%;
+    height:55px; 
+    color: #cbcbcb;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 55px;
+}

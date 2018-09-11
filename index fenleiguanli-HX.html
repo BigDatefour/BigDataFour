@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>分类管理弹出</title>
+  <link rel="stylesheet" href="css/index%20fenleiguanli-HX.css">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_829213_sylt2w97q4f.css">
+  <script src="js/jQuery.js"></script>
+  <script src="js/indexfenleiguanli.js"></script>
+</head>
+<body>
+  <div class="topBox"> 
+    <img class="img" src="img/logo.png" alt="">
+    <h2>大数据实验平台</h2>
+    <div class="guanli">
+     <img src="img/touxiang.png" alt="">
+     <p>管理员身份</p>
+     <span class="iconfont icon-arrow "></span>
+   </div>
+ </div>
+ <div class="leftBox">
+  <ul>
+    <li><a  href="javascript:;">集群管理</a></li>
+    <li><a href="javascript:;">学习资料</a></li>
+    <li><a class="active" href="javascript:;">分类管理</a></li>
+    <li><a href="javascript:;">账户管理</a></li>
+    <li><a href="javascript:;">资源管理</a></li>
+    <li><a  href="javascript:;">购买记录</a></li>
+  </ul>
+</div>
+<div class="main">
+ <div class="con">
+   <div class="section1">
+    <div class="top">
+      <div class="left"></div>
+      <p>分类管理</p>
+    </div>
+    <div class="bottom">
+     <div class="dl">名称 <i class="iconfont icon-xiaosanjiaodown"></i></div>
+     <input type="text">
+     <a href="" ><button style="margin-left:8px" >搜索</button></a>
+     <button class="add" style="margin-left:8px">添加</button>
+   </div>
+ </div>
+ <div class="section2">
+  <div class="center"> 
+   <ul class="top1">
+     <li style="width: 224px; margin-left:-1px;">名称</li>
+     <li style="width: 332px; margin-left:-1px;">介绍</li>
+     <li style="width: 170px; margin-left:-1px;">类型</li>
+     <li style="width: 142px; margin-left:-1px;">链接</li>
+     <li style="width: 224px; margin-left:-1px;">操作 </li>  
+   </ul>
+   <ul  class="top1">
+     <li style="width: 224px;color: #dddddd; margin-left:-1px;">实验一 基本操作实验</li>
+     <li style="width: 332px;color: #dddddd; margin-left:-1px;">熟悉大数据实验一体机并了解如何搭建集群</li>
+     <li style="width: 170px;color: #dddddd; margin-left:-1px;">实验手册</li>
+     <li style="width: 142px;color: #dddddd; margin-left:-1px;"><button class="load">下载</button></li>
+     <li style="width: 224px; margin-left:-1px;"><button class="del">删除</button> <button class="ch">修改</button></li>  
+   </ul> 
+   <ul class="top1"> 
+     <li style="width: 224px;color: #dddddd; margin-left:-1px;">实验一 基本操作实验</li>
+     <li style="width: 332px;color: #dddddd; margin-left:-1px;">熟悉大数据实验一体机并了解如何搭建集群</li>
+     <li style="width: 170px;color: #dddddd; margin-left:-1px;">教材配套PPT</li>
+     <li style="width: 142px;color: #dddddd; margin-left:-1px;"><button class="load">下载</button></li>
+     <li style="width: 224px; margin-left:-1px;"><button class="del">删除</button> <button class="ch">修改</button></li>  
+   </ul>
+   <ul class="top1">
+     <li style="width: 224px;color: #dddddd; margin-left:-1px;">实验一 基本操作实验</li>
+     <li style="width: 332px;color: #dddddd; margin-left:-1px;">熟悉大数据实验一体机并了解如何搭建集群</li>
+     <li style="width: 170px;color: #dddddd; margin-left:-1px;">教材配套PPT</li>
+     <li style="width: 142px;color: #dddddd; margin-left:-1px;"><button class="load">下载</button></li>
+     <li style="width: 224px; margin-left:-1px;"><button class="del">删除</button> <button class="ch">修改</button></li>  
+   </ul>
+ </div>
+ <div class="page">
+   <ul>
+     <li style=" width:95px;margin-right:10px;">上一页</li>
+     <li class="remove" style=" width:28px;margin-right:10px">1</li>
+     <li style=" width:28px; margin-right:10px">2</li>
+     <li style=" width:28px; margin-right:10px">3</li>
+     <li style="margin-right:10px; border:none;">......</li>
+     <li style=" width:28px; margin-right:10px">9</li>
+     <li style=" width:28px; margin-right:10px">10</li>
+     <li style="width:95px;margin-right:10px">下一页</li>
+     <li style="width:75px;">尾页</li>
+   </ul>
+ </div>
+</div> 
+</div>
+</div>
+<footer>
+  c 2017-2018 http://sxuek.com山西优逸客科技有限公司版权所有
+</footer>
+<!--弹出框1 -->
+<div class="alert1">  
+  <div class="header">
+    <span style="color:#585858">分类添加</span><a  href="" style="color:#bdc0c5"><i class="iconfont icon-guanbi"></i></a>
+  </div>
+  <form action="index fenleiguanli-HX.html" name="">
+   <div class="headerChoice">
+     <span>请选择分类级别</span><input type="checkbox"><span>一级</span><input type="checkbox"><span>二级</span><input type="checkbox"><span>三级</span>
+   </div>
+   <div class="choice">
+     <span>一级分类</span><select style="color:#dddddd" name="" id="" type="text">
+     <option  selected  value="">实验手册</option>
+     <option  value="">实验手册1</option>
+     <option  value="">实验手册2</option>
+   </select>
+ </div>
+ <div class="choice">
+   <span>二级分类</span><select style="color:#dddddd" name="" id="" type="text">
+   <option  selected  value="">基本操作</option>
+   <option  value="">基本操作</option>
+   <option  value="">基本操作</option>
+ </select>
+</div>
+<div class="choice">
+ <span>三级分类</span><select style="color:#dddddd" name="" id="" type="text">
+ <option  selected  value="">请输入名称</option>
+ <option  value="">请输入名称</option>
+ <option  value="">请输入名称</option>
+</select>
+</div>
+<button type="submit">添加</button>
+</form>
+</div>
+</body>
+</html>
