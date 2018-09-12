@@ -1,4 +1,5 @@
-window.onload = function(){
+$(function () {
+    
 
 let ass = $(".leftBox ul li a");
 ass.each(function(index,item){
@@ -13,4 +14,4 @@ ass.each(function(index,item){
         $(this).addClass("active")
     })
 })
-}
+})

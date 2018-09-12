@@ -72,6 +72,26 @@ a{
     line-height: 40px;
     text-align: center;
     color:rgba(0, 0, 0, 0.6);
+    position: relative;
+    overflow: hidden;
+}
+.leftBox ul li a .yuan{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color:#ccc;
+    opacity: 0.3;
+    border-radius: 50%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.leftBox ul li .active{
+    color:#4381e6;
+    background-color: #ecf2fc;
+    border-right: 2px solid #4381e6;
 }
                         /* 侧导航 */
 .leftBox{
