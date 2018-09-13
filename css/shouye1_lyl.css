@@ -17,14 +17,17 @@ img{
 	right: 0;
 	background-image: url('../img/shouye.png')
 }
+.bg .bbb{
+	width: 770px;
+	height: auto;
+	margin:79px auto 0;
+	overflow: hidden;
+}
 .bg .img{
 	width: 400px;
 	height: 510px;
 	background-image: url('../img/shouye2.png');
-	position: fixed;
-	top:79px;
-	left: 303px;
-	z-index: 10;
+	float: left;
 }
 .bg .denglu{
 	width: 370px;
@@ -32,10 +35,8 @@ img{
 	border-radius: 3px;
 	padding:0 50px 0 60px;
 	box-sizing: border-box;
-	position: fixed;
-	z-index: 5;
-	top:94px;
-	right: 303px;
+	float: left;
+	margin-top: 15px;
 	background-color: #FFFFFF;
 }
 .bg .denglu .img1{
