@@ -63,7 +63,7 @@ header .header_right span{
     width:1156px;
     height: 650px;
     background: #f1f4f9;
-    margin: 58px 0 0 190px;
+    margin: 58px 0 0 180px;
     padding-bottom: 60px;
 }
 /*²àµ¼º½*/
@@ -74,7 +74,7 @@ header .header_right span{
     float: left;
     margin-right: 15px;
     position: fixed;
-    left:10px;
+    left:0;
     top:58px;
 }
 .aside li{
