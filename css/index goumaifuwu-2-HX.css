@@ -118,6 +118,26 @@ a{
 	padding: 73px 0 0 195px;
 	box-sizing: border-box; 
 }
+/* 管理员弹框 */
+.projectile{
+    width: 127px;
+    height: 64px;
+    background: white;
+    border-radius: 4px;
+    position: absolute;
+    top:54px;
+    right: 15px;
+    box-shadow:0 0 16px 0 rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.projectile li{
+    margin-top: 8px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
 /* 内容部分 */
 .section{
 	width: 100%;
