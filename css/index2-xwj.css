@@ -65,6 +65,27 @@ a{
     line-height: 28px;
     color: #b2c7f3;
 }
+                    /* 管理员弹框 */
+.projectile{
+    width: 127px;
+    height: 64px;
+    background: white;
+    border-radius: 4px;
+    position: absolute;
+    top:54px;
+    right: 15px;
+    box-shadow:0 0 16px 0 rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.projectile li{
+    margin-top: 8px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+                        /* 侧导航 */
 .leftBox ul li a{
     display: block;
     width: 100%;
@@ -93,7 +114,7 @@ a{
 }
 .leftBox ul li{
     height: 40px;
-    border-bottom:1px solid #f4f4f4;
+    
     cursor: pointer;
     font-size: 14px;
     line-height: 40px;
@@ -109,6 +130,7 @@ a{
     text-align: center;
     color:rgba(0, 0, 0, 0.6);
     border-right: 2px solid #fff;
+    border-bottom:1px solid #f4f4f4;
     position: relative;
     overflow: hidden;
 }

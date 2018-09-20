@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
     list-style: none;
     outline: none;
 }
@@ -63,8 +63,9 @@ a{
     height: 28px;
     line-height: 28px;
     color: #b2c7f3;
+    cursor: pointer;
 }
-/* 管理员弹框 */
+                        /* 管理员弹框 */
 .projectile{
     width: 127px;
     height: 64px;
@@ -86,7 +87,7 @@ a{
 }
                         /* 侧导航 */
 .leftBox{
-    width: 180px;
+    width: 178px;
     height: 100%;
     position: fixed;
     z-index: 9;
@@ -97,11 +98,12 @@ a{
     background-color: #eef1f5;
 }
 .leftBox ul{
-    width: 100%;
+    width: 178px;
     height: 100%;
     background-color: #fff;
 }
 .leftBox ul li{
+    width: 178px;
     height: 40px;
     
     cursor: pointer;
@@ -109,19 +111,19 @@ a{
     line-height: 40px;
     text-align: center;
     color:rgba(0, 0, 0, 0.6);
-   
+    
 }
 .leftBox ul li a{
     display: block;
-    width: 178px;
+    width: 176px;
     height: 100%;
     font-size: 14px;
     line-height: 40px;
     text-align: center;
     color:rgba(0, 0, 0, 0.6);
-    position: relative;
     border-right: 2px solid #fff;
     border-bottom:1px solid #f4f4f4;
+    position: relative;
     overflow: hidden;
 }
 .leftBox ul li a .yuan{
@@ -145,31 +147,19 @@ a{
                         /* 内容 */
 .main{
     width: 100%;
-    height: 437px;
-    padding:73px 15px 0 195px;
+    height: auto;
+    padding:73px 15px 0 190px;
     position: absolute;
     box-sizing: border-box;
 }
-.main ul{
+.main .m_top{
     width: 100%;
-    height: 437px;
-    padding-right: 15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.main ul .list{
-    width: 378px;
-    height: 213px;
+    height: 60px;
+    border-radius: 5px;
     background-color: #fff;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-right: 11px;
-    margin-bottom: 11px;
+    overflow: hidden;
 }
-.main ul .list:nth-child(3){
-    margin-right: 0;
-}
-.list .lc_line{
+.main .m_top .lc_line{
     width:2px;
     height:11px;
     background-image: -webkit-linear-gradient(top,#6787ff,#33bffb);
@@ -178,44 +168,122 @@ a{
     background-image: -o-linear-gradient(top,#6787ff,#33bffb);
     background-image: linear-gradient(top,#6787ff,#33bffb);
     float: left;
+    margin: 25px 0 0 32px;
 }
-.list h3{
+.main .m_top p{
+    width: 122px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
     font-size: 14px;
     color: #8d8d8d;
-    margin-top: -5px;
+    margin: 23px 0 0 8px;
     float: left;
-    margin-left: 8px;
 }
-.list .rc_line{
-    width:2px;
-    height:11px;
-    background-image: -webkit-linear-gradient(top,#6787ff,#33bffb);
-    background-image: -moz-linear-gradient(top,#6787ff,#33bffb);
-    background-image: -ms-linear-gradient(top,#6787ff,#33bffb);
-    background-image: -o-linear-gradient(top,#6787ff,#33bffb);
-    background-image: linear-gradient(top,#6787ff,#33bffb);
-    float: left;
-    margin-left: 8px;
+.main .m_con{
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+    position: relative;
 }
-.list p{
-    width:186px;
-    height: 37px;
-    font-size: 13px;
-    color: #b8b8b8;
-    text-align: center;
-    margin: 32px 0 0 96px;
+.main .m_left{
+    width: 165px;
+    height: 340px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.list .s_btn{
-    display: block;
-    width: 111px;
-    height: 29px;
-    text-align: center;
-    line-height: 29px;
-    background-color: #4381e6;
+.main .m_left .ml_list{
+    width: 147px;
+    height: 39px;
+    background-color: #fff;
+    border-bottom: 1px solid #ececec;
+    padding-left: 18px;
+    line-height: 39px;
     font-size: 14px;
-    color: #fff;
-    margin: 56px 0 0 130px;
-    border-radius:5px; 
+    color: #a3a3a3;
+    cursor: pointer;
+    position: relative;
+}
+.main .m_left .ml_list:nth-child(1){
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.main .m_left .into{
+    color: #4381e6;
+}
+.into_c{
+    width: 223px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 165px;
+    z-index: 200;
+    display: none;
+}
+.into_c .into_list{
+    width: 205px;
+    height: 39px;
+    border-bottom: 1px solid #ececec;
+    padding-left: 18px;
+    line-height: 39px;
+    font-size: 14px;
+    color: #a3a3a3; 
+}
+.into_c .into_list:nth-child(3){
+    border-bottom: none;
+}
+                        /* 主要内容 */
+.main .m_con  .content{
+    width:calc(100% - 165px);
+    height: auto;
+    float: right;
+}
+.main .m_con .content ul{
+    height: 475px;
+    padding-left: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    box-sizing: border-box;
+}
+.main .m_con .content ul .con_list{
+    width: 310px;
+    height: 232px;
+    position: relative; 
+}
+.main .m_con .content ul .con_list img{
+    width: 310px;
+    height: 232px;
+    
+}
+.main .m_con .content ul .con_list .play{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:1px solid #7c7ea2;
+    background-color: #38539c6b;
+    position: absolute;
+    top: 101px;
+    left: 144px;
+    z-index: 100;
+    cursor: pointer;
+}
+.play i{
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 3px;
+}
+.main .m_con .content ul .con_list:nth-child(3){
+    margin-right: 0;
 }
                         /* 底部 */
 footer{
@@ -223,7 +291,7 @@ footer{
     height: 50px;
     background-color: #fff;
     position: absolute;
-    bottom: 0;
+    top: 718px;
     right: 0;
 }
 footer p{
