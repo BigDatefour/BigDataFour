@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>下载视频</title>
+    <link rel="stylesheet" href="css/xiazai_lyl.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_829213_f3kvusi4ahs.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/index_lyl.js"></script>
+</head>
+<body>
+    <div class="topBox"> 
+       
+            <img class="img" src="img/logo.png" alt="">
+            <h2>大数据实验平台</h2>
+            <div class="guanli">
+                <img src="img/touxiang.png" alt="">
+                <p>管理员身份</p>
+                <span class="iconfont icon-down-trangle "></span>
+            </div>
+        
+    </div>
+    <div class="leftBox">
+        <ul>
+            <li><a class="active" href="javascript:;">集群管理</a></li>
+            <li><a href="index-xwj.html">学习资料</a></li>
+            <li><a href="index fenleiguanli-HX.html">分类管理</a></li>
+            <li><a href="index zhanghuguanli-2-HX.html">账户管理</a></li>
+            <li><a href="zygl_gyh4.html">资源管理</a></li>
+            <li><a href="zygl_gyh3.html">购买记录</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="top">
+            <div class="toptop">
+                <p><span></span>学习资料/实验视频</p> 
+            </div>
+        </div>
+        <div class="mamam">
+            <div class="left">
+                <ul>
+                    <li>大数据语言技术基础</li>
+                    <li>大数据离线计算技术</li>
+                    <li>大数据语言技术基础</li>
+                    <li>大数据离线计算技术</li>
+                    <li>大数据语言技术基础</li>
+                    <li>大数据离线计算技术</li>
+                    <li>大数据语言技术基础</li>
+                    <li>大数据离线计算技术</li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="r_box">
+                    <h2><i class="i1"></i>第一章<i class="i2"></i></h2>
+                    <p>大数据概念与因素</p>
+                    <img src="img/xiazai2.png" alt="">
+                    <div class="tankuang"></div>
+                </div>
+                <div class="r_box">
+                    <h2><i class="i1"></i>第一章<i class="i2"></i></h2>
+                    <p>大数据概念与因素</p>
+                    <img src="img/xiazai2.png" alt="">
+                    <div class="tankuang"></div>
+                </div>
+                <div class="r_box">
+                    <h2><i class="i1"></i>第一章<i class="i2"></i></h2>
+                    <p>大数据概念与因素</p>
+                    <img src="img/xiazai2.png" alt="">
+                    <div class="tankuang"></div>
+                </div>
+                <div class="r_box">
+                    <h2><i class="i1"></i>第一章<i class="i2"></i></h2>
+                    <p>大数据概念与因素</p>
+                    <img src="img/xiazai2.png" alt="">
+                    <div class="tankuang"></div>
+                </div>
+                <div class="r_box">
+                    <h2><i class="i1"></i>第一章<i class="i2"></i></h2>
+                    <p>大数据概念与因素</p>
+                    <img src="img/xiazai2.png" alt="">
+                    <div class="tankuang"></div>
+                </div>
+                <div class="r_box">
+                    <h2><i class="i1"></i>第一章<i class="i2"></i></h2>
+                    <p>大数据概念与因素</p>
+                    <img src="img/xiazai2.png" alt="">
+                    <div class="tankuang"></div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="end">
+                c 2017-2018 http://sxuek.com山西优逸客科技有限公司版权所有
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    let r_boxs = document.querySelectorAll(".r_box")
+    let tankuangs = document.querySelectorAll(".tankuang")
+    console.log(r_boxs,tankuangs)
+    r_boxs.forEach((item,index)=>{
+        item.onmouseenter = function(){
+            tankuangs[index].style.display = "none"
+        }
+        item.onmouseleave = function(){
+            tankuangs[index].style.display = "block"
+        }
+    })
+</script>

@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.topBox{
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4381E6;
+    z-index: 10;
+}
+.topBox .img{
+    margin-left: 52px;
+    margin-top: 16px;
+    float: left;
+}
+.topBox h2{
+    width: 130px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 21px 0 0 12px;
+    float: left;
+    color: #fff;
+}
+.topBox .guanli{
+    width: 127px;
+    height: 28px;
+    float: right;
+    margin: 14px 30px 0 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.topBox .guanli img{
+    width: 28px;
+    height: 28px;
+}
+.topBox .guanli p{
+    width: 72px;
+    height: 28px;
+    font-size: 14px;
+    color: #b2c7f3;
+    line-height: 28px; 
+}
+.topBox .guanli span{
+    width: 16px;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    color: #b2c7f3;
+}
+.leftBox{
+    width: 178px;
+    height: 100%;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    padding-top: 58px;
+    box-sizing: border-box;
+    background-color: #eef1f5;
+}
+.leftBox ul{
+    width: 178px;
+    height: 100%;
+    background-color: #fff;
+}
+.leftBox ul li{
+    width: 178px;
+    height: 40px;
+    border-bottom:1px solid #f4f4f4;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.6);
+    
+}
+.leftBox ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.6);
+    border-right: 2px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+.leftBox ul li a .yuan{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color:#ccc;
+    opacity: 0.3;
+    border-radius: 50%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.leftBox ul li .active{
+    color:#4381e6;
+    background-color: #ecf2fc;
+    border-right: 2px solid #4381e6;
+}
+.main{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding: 58px 0 0 178px;
+    box-sizing: border-box;
+    background-color: #f1f4f9;
+}
+.main .top{
+    width: 100%-27px;
+    height: 86px;
+    margin-left: 15px;
+    overflow: hidden;
+   
+}
+.main .top .toptop{
+    height: 62px;
+    width: 100%;
+    margin-top: 12px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.main .top .toptop p{
+    width: 134px;
+    height: 14px;
+    text-align: left;
+    line-height: 14px;
+    font-size: 14px;
+    color: #8d8d8d;
+    margin-top: 26px;
+    overflow: hidden;
+    margin-left: 32px;
+}
+.main .top .toptop p span{
+    display: inline-block;
+    width: 2px;
+    height: 11px;
+    background-image: -webkit-linear-gradient(top,#6787FF,#33BFFB);
+    margin-right: 8px;
+    margin-top: 2px;
+}
+.main .mamam{
+    width: 1156px;
+    height: 475px;
+    margin-left: 15px;
+}
+.main .mamam .left{
+    width: 165px;
+    height: 341px;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.main .mamam .left ul{
+    width: 100%;
+    height: 100%;
+}
+.main .mamam .left ul li{
+    width: 100%;
+    height: 12.5%;
+    line-height: 42px;
+    text-align: center;
+    color: #A3A3A3;
+    font-size: 14px;
+}
+.main .mamam .right{
+    width: 979px;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.main .mamam .right .r_box{
+    width: 319px;
+    height: 232px;
+    background-image: url(../img/xiazai1.png);
+    overflow: hidden;
+    position: relative;
+}
+.main .mamam .right .r_box h2{
+    width: 62px;
+    height: 13px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+    color: #fff;
+    margin: 33px auto 0;
+}
+.main .mamam .right .r_box h2 i{
+    width: 2px;
+    height: 11px;
+    background-color:#fff;
+    display: inline-block;
+}
+.main .mamam .right .r_box h2 .i1{
+    margin-right: 5px;
+}
+.main .mamam .right .r_box h2 .i2{
+    margin-left: 5px;
+}
+.main .mamam .right .r_box p{
+    width: 117px;
+    height: 13px;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+    margin: 13px auto 0;
+}
+.main .mamam .right .r_box img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 93px auto;
+}
+.main .mamam .right .r_box .tankuang{
+    width: 100%;
+    height: 100%;
+    background-color: #8EB3F0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .end{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 50px;
+    margin-top: 98px;
+    color: rgba(0, 0, 0, 0.4);
+    background: #fff;
+}

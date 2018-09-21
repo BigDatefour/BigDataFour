@@ -14,4 +14,19 @@ ass.each(function(index,item){
         $(this).addClass("active")
     })
 })
+
+
+//////////////////////////////顶部弹出框//////////////////////////////////
+let boxs = $(".projectile");
+let icon = $(".icon-down-trangle");
+// console.log(boxs,icon);
+icon.click(function(){
+    boxs.slideToggle()
+
 })
+
+
+
+
+})
+
