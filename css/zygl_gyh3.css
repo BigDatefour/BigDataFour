@@ -58,6 +58,26 @@ header .header_right .img_box{
 header .header_right span{
     margin-right: 12px;
 }
+/* 管理员弹框 */
+.projectile{
+    width: 127px;
+    height: 64px;
+    background: white;
+    border-radius: 4px;
+    position: absolute;
+    top:54px;
+    right: 15px;
+    box-shadow:0 0 16px 0 rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.projectile li{
+    margin-top: 8px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
 /*内容*/
 .container{
     /*width:1156px;*/
@@ -90,7 +110,7 @@ header .header_right span{
 .aside li .point{
     width:30px;
     height: 30px;
-    background:rgba(0,0,255,0.4);
+    background:rgba(0,0,255,0);
     border-radius: 50%;
     position: absolute;
     left:0;
